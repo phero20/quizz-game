@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --blue: rgb(0, 186, 254);
+            --yellow: #f2ff00d8;
+            --green: #008080;
+            --red: rgba(239, 33, 33, 0.976);
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: var(--yellow);
+            /* Prevent the image from repeating */
+            position: relative;
+        }
+
+        .result {
+            position: absolute;
+            background-color: var(--yellow);
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            transition: left 1s ease;
+        }
+
+        .b {
+           padding: 20px;
+            width: 100%;
+            background-color: var(--blue);
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-align: center;
+            height: 30%;
+            text-shadow: 0px 1px 13px rgba(51, 51, 51, 0.724);
+            transform: translateY(-100vh);
+        }
+        .messege {
+           padding-top: 20px;
+           color: #034343;
+        }
+        .crtqns {
+            height: 62%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.724);
+        }
+        .qnns {
+            padding: 5px;
+            /* Set a max height for scrolling */
+            overflow-y: auto;
+            /* width: 100%; */
+        }
+        .qnns::-webkit-scrollbar {
+            width: 0px;
+            background: transparent;
+        }
+        .qnns ul li {
+            list-style: none;
+            padding: 5px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--yellow);
+        }
+        .p {
+            font-size: 1.5rem;
+            font-weight: 700;
+            padding: 10px;
+            padding-bottom: 0;
+            color: #008080;
+            text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.724);
+        }
+        .q {
+            font-size: 1.1rem;
+            font-weight: 700;
+            padding: 10px 0;
+            color: var(--blue);
+        }
+        .qnns ul {
+            padding: 10px;
+            background-color: var(--green);
+            margin: 10px;
+            border-radius: 20px;
+        }
+    .resett{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        height: 8%;
+    }
+    .resett button{
+    width: 110px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(53, 197, 250);
+    cursor: pointer;
+    color: #023c3c;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.427);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.588);
+    transition: background-color .5s ease;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="result">
+        <div class="b">
+            <h2 style="color: var(--yellow);">Great Performance</h2>
+            <div class="messege">Fantastic Job, [User's Name]! 🎉 "You've aced this quiz with a high score! You got
+                [Correct Answers] right out of [Total Questions]. Only [Wrong Answers] wrong and [Skipped Questions]
+                skipped. Your knowledge is impressive.
+            </div>
+        </div>
+        <div class="crtqns">
+            <p class="p">Correct Answers</p>
+            <div class="qnns">
+                <ul>
+                    <p class="q">Q1. Helloe bhai gggggg ggggggg ggggggggg ggggggggg gggggggggg ggggggggg ggggggggg</p>
+                    <li>adddddddddd</li>
+                    <li>dddddssb</li>
+                    <li>sssssssc</li>
+                    <li>dsssssssss</li>
+                </ul>
+                <ul>
+                    <p class="q">Q1. Helloe bhai gggggg ggggggg ggggggggg ggggggggg gggggggggg ggggggggg ggggggggg</p>
+                    <li>adddddddddd</li>
+                    <li>dddddssb</li>
+                    <li>sssssssc</li>
+                    <li>dsssssssss</li>
+                </ul>
+                <ul>
+                    <p class="q">Q1. Helloe bhai gggggg ggggggg ggggggggg ggggggggg gggggggggg ggggggggg ggggggggg</p>
+                    <li>adddddddddd</li>
+                    <li>dddddssb</li>
+                    <li>sssssssc</li>
+                    <li>dsssssssss</li>
+                </ul>
+                <ul>
+                    <p class="q">Q1. Helloe bhai gggggg ggggggg ggggggggg ggggggggg gggggggggg ggggggggg ggggggggg</p>
+                    <li>adddddddddd</li>
+                    <li>dddddssb</li>
+                    <li>sssssssc</li>
+                    <li>dsssssssss</li>
+                </ul>
+            </div>
+           
+        </div>
+        <div class="resett"><button>Reset</button></div>
+
+    </div>
+</body>
+
+</html>

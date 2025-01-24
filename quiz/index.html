@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="icon" href="img\dmg.png" type="image/x-icon">
+    <title>Quiz-Game</title>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1K0BD36NZG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1K0BD36NZG');
+</script>
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="">
+                <div class="cat cat1" ><img src="img\quiz.png" width="50px">
+                    <h1>QUIZ - GAME</h1>
+                </div>
+                <div class="cat">
+                    <label for="name">Enter Your Name</label>
+                    <input name="name" type="text" placeholder="Name" required>
+                </div>
+                <div class="cat">
+                    <label for="Category">Select Category</label>
+                    <select name="Category" id="category">
+                        <option value="9">General Knowledge</option>
+                        <option value="17">Science and Nature</option>
+                        <option value="18">Computers</option>
+                        <option value="19">Mathematics</option>
+                        <option value="21">Sports</option>
+                        <option value="23">History</option>
+                        <option value="24">Politics</option>
+                        <option value="22">Geography</option>
+                        <option value="20">Mythology</option>
+                        <option value="31">Anime and Manga</option>
+                        <option value="29">Comics</option>
+                        <option value="30">Gadgets</option>
+                        <option value="28">Vehicles</option>
+                        <option value="27">Animals</option>
+                        <option value="10">Books</option>
+                        <option value="11">Film</option>
+                        <option value="12">Music</option>
+                        <option value="15">Video Games</option>
+                        <option value="16">Board Games</option>
+                        <option value="26">Celebrities</option>
+                        <option value="25">Arts</option>
+                        <option value="32">Cartoon and Animations</option>
+                        <option value="14">Television</option>
+                        <option value="13">Musicals and Theaters</option>
+                    </select>
+                </div>
+                <div class="cat">
+                    <label for="Difficulty">Select Difficulty</label>
+                    <select name="Difficulty" id="difficulty">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+                <div class="cat">
+                    <label for="Type">Select Type</label>
+                    <select name="Type" id="type">
+                        <option value="multiple">Multiple Choice</option>
+                        <option value="boolean">True/False</option>
+                    </select>
+                </div>
+                <div class="cat">
+                    <label for="Questions">Select Number of Questions</label>
+                    <select name="Questions" id="questions">
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                    </select>
+                </div>
+                <div class="cat">
+                    <input class="submit" type="submit" value="Start Quiz">
+                </div>
+            </form>
+        </div>
+        <div class="upper-blue">
+            <div class="logo">
+                <img src="img\excited.png" alt="" width="50px">
+                <h1>QUIZ <span class="gradient-text">-</span> <span style="color: #f2ff00f1;"> GAME</span></h1>
+                <img src="img\optimist.png" alt="" width="50px">
+            </div>
+            <div class="upper-blue-down">
+                <!-- <div class="disp1">
+                    <p><span style="color:#f2ff00bc">Category :</span> General Knowledge</p>
+                    <p><span style="color: #f2ff00bc;">Difficulty : </span>Hard</p>
+                </div>
+                <div class="disp2">
+                    <p><span style="color: rgb(44, 246, 29);">Correct : </span>1</p>
+                    <p><span style="color: rgb(134, 33, 33);">Wrong : </span>5
+                    </p>
+                </div> -->
+            </div>
+        </div>
+        <div class="main-questions">
+            <div class="qno">Q 1</div>
+            <div class="qa">
+                <!-- <div class="question">Lorem ipsum dolor sit, amet consectetur</div> -->
+                <!-- Options will be dynamically added here -->
+            </div>
+        </div>
+        <div class="footer">
+        <button class="ress">Restart</button>
+        <button class="bt">Next <img src="img\right.png" alt="" width="25%"></button>
+       
+        </div>
+    </div>
+    <div class="greet">
+        <!-- <div class="greet-upper">
+            <img class="a" src="img\dmg.png" alt="">
+            <img src="img\4.png" alt="">
+        </div> -->
+        <div>
+            <p id="p1">Welcome</p>
+            <p id="gret">welcome</p>
+            <P id="p3">Lets Play</P>
+        </div>
+
+        <!-- <div class="greet-down">
+            <img class="a" src="img\4op.png" alt="">
+            <img class="b" src="img\trf.png" alt="">
+        </div> -->
+    </div>
+    <div class="result">
+    <div class="b">
+        <h2>Great Performance</h2>
+        <div class="messege">
+        </div>
+    </div>
+    <div class="crtqns">
+        <p class="p">Correct Answers</p>
+        <div class="qnns">
+            <!-- <ul>
+                <p class="q">Q1. Helloe bhai gggggg ggggggg ggggggggg ggggggggg gggggggggg ggggggggg ggggggggg</p>
+                <li>adddddddddd</li>
+                <li>dddddssb</li>
+                <li>sssssssc</li>
+                <li>dsssssssss</li>
+            </ul>
+            <ul>
+                <p class="q">Q1. Helloe bhai gggggg ggggggg ggggggggg ggggggggg gggggggggg ggggggggg ggggggggg</p>
+                <li>adddddddddd</li>
+                <li>dddddssb</li>
+                <li>sssssssc</li>
+                <li>dsssssssss</li>
+            </ul>
+            <ul>
+                <p class="q">Q1. Helloe bhai gggggg ggggggg ggggggggg ggggggggg gggggggggg ggggggggg ggggggggg</p>
+                <li>adddddddddd</li>
+                <li>dddddssb</li>
+                <li>sssssssc</li>
+                <li>dsssssssss</li>
+            </ul>
+            <ul>
+                <p class="q">Q1. Helloe bhai gggggg ggggggg ggggggggg ggggggggg gggggggggg ggggggggg ggggggggg</p>
+                <li>adddddddddd</li>
+                <li>dddddssb</li>
+                <li>sssssssc</li>
+                <li>dsssssssss</li>
+            </ul>
+        </div> -->
+       
+    </div>
+   
+    </div>
+    <div class="resett"><button>Play Again</button></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+                document.body.addEventListener('click', function promptFullscreen() {
+                    let body = document.body;
+                    if (body.requestFullscreen) {
+                        body.requestFullscreen().catch(console.log);
+                    } else if (body.webkitRequestFullscreen) {
+                        body.webkitRequestFullscreen();
+                    } else if (body.msRequestFullscreen) {
+                        body.msRequestFullscreen();
+                    }
+                    // body.removeEventListener('click', promptFullscreen);
+                });
+            }
+        });
+        </script>
+        
+        
+        
+        
+    <!-- <script> document.addEventListener("DOMContentLoaded", function () { let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent); if (isMobile) { let body = document.body; let promptFullscreen = function () { if (body.requestFullscreen) { body.requestFullscreen(); } else if (body.webkitRequestFullscreen) { body.webkitRequestFullscreen(); } else if (body.msRequestFullscreen) { body.msRequestFullscreen(); } body.removeEventListener('click', promptFullscreen); }; body.addEventListener('click', promptFullscreen); } }); </script> -->
+</body>
+
+</html>
